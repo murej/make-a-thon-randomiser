@@ -1,0 +1,65 @@
+body, html {
+	
+	width: 100%;
+	height: 100%;
+	
+}
+
+ul {
+	
+	width: 100%;
+	height: 100%;
+	
+	float: left;
+	
+}
+
+ul li {
+	
+	width: 100%;
+	height: 100%;
+	
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+
+ul#age {  }
+
+ul#age li { background-position: left center;  }
+
+ul#age li.cover { background-image: url(../assets/cover_left.png); }
+ul#age li:nth-child(2) { background-image: url(../assets/cake_2.png); }
+ul#age li:nth-child(3) { background-image: url(../assets/cake_7.png); }
+ul#age li:nth-child(4) { background-image: url(../assets/cake_18.png); }
+ul#age li:nth-child(5) { background-image: url(../assets/cake_27.png); }
+ul#age li:nth-child(6) { background-image: url(../assets/cake_35.png); }
+ul#age li:nth-child(7) { background-image: url(../assets/cake_42.png); }
+ul#age li:nth-child(8) { background-image: url(../assets/cake_57.png); }
+ul#age li:nth-child(9) { background-image: url(../assets/cake_75.png); }
+ul#age li:nth-child(10) { background-image: url(../assets/cake_83.png); }
+
+ul#time { }
+
+ul#time li {	background-position: right center; }
+
+ul#time li.cover { background-image: url(../assets/cover_right.png); }
+ul#time li:nth-child(2) { background-image: url(../assets/clock_00.png); }
+ul#time li:nth-child(3) { background-image: url(../assets/clock_6.png); }
+ul#time li:nth-child(4) { background-image: url(../assets/clock_18.png); }
+ul#time li:nth-child(5) { background-image: url(../assets/clock_245.png); }
+ul#time li:nth-child(6) { background-image: url(../assets/clock_930.png); }
+ul#time li:nth-child(7) { background-image: url(../assets/clock_1145.png); }
+ul#time li:nth-child(8) { background-image: url(../assets/clock_1430.png); }
+ul#time li:nth-child(9) { background-image: url(../assets/clock_2015.png); }
+ul#time li:nth-child(10) { background-image: url(../assets/clock_2230.png); }
+
+
+.jSlots-wrapper {
+    overflow: hidden; /* to hide the magic */
+    
+    height: 100%; /* whatever the height of your list items are */
+	width: 50%;
+    
+    float: left;
+}
